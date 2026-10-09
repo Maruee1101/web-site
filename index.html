@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f1ed">
+    <meta
+      name="description"
+      content="Marie-Tの自己紹介サイト。ラグジュアリーで上質なブランド感のあるデザインで、自分のことを伝えます。"
+    >
+    <title>Marie-T | About Me</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav wrap" aria-label="メインナビゲーション">
+        <a class="brand" href="#home">MARIE-T</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero wrap" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy-block">
+          <p class="eyebrow">Welcome</p>
+          <h1 id="hero-title">Marie-T</h1>
+          <p class="hero-subtitle">小さな発見を大切にしながら、好きなことを形にしていく。</p>
+          <p class="hero-copy">
+            すべてを大きく変えなくても、日々の積み重ねを丁寧に続けることに価値があると信じています。
+            その姿勢を大切にしながら、HTMLとCSSを学び、自分の世界を少しずつ整えていっています。
+          </p>
+          <a class="button" href="#about">About Me <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="portrait" role="img" aria-label="AIで描いた自分のportrait image">
+          <img src="./自画像AI_1MB以下.jpeg" alt="Marie-T portrait" class="portrait-img">
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="wrap">
+          <div class="section-heading">
+            <p class="section-label">About</p>
+            <h2 id="about-title">自分について</h2>
+          </div>
+
+          <div class="about-content">
+            <div class="about-card">
+              <h3>Profile</h3>
+              <p class="profile-role">職業：フリーター / Location：愛媛県 / Work：FXトレード、Web制作、データ入力、LINEスタンプ</p>
+              <ul class="skills-list">
+                <li>FX Trading</li>
+                <li>HTML / CSS</li>
+                <li>Notion Template</li>
+                <li>Data Entry</li>
+              </ul>
+            </div>
+
+            <p class="about-text">
+              はじめまして。Marie-T（マリエッティ）です。<br>
+              <br>
+              実家を間借りして生活しながら、昼間は在宅ワーカー、夜はFXトレーダーとして活動しています。
+              FXで培った感覚をもとに、Notionでトレードノートや家計簿テンプレートを作ることもあります。<br>
+              <br>
+              数学が好きで、数式や考え方を整理するのが得意です。最近は職業訓練校でC言語を学び、HTMLやCSSにも取り組んでいます。
+              できるようになっていく感覚が好きで、自分のスキルを少しずつ広げていくのがとても楽しいです。<br>
+              <br>
+              ファッションやコスメ、健康にも関心があり、特に食事と運動に気を使っています。
+              四毒抜き(砂糖、油、小麦粉、乳製品)の食事を心がけ、日々を整えることを大切にしています。<br>
+              <br>
+              どうぞよろしくお願いいたします。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="interests" aria-labelledby="interests-title">
+        <div class="wrap">
+          <div class="section-heading">
+            <p class="section-label">Interests</p>
+            <h2 id="interests-title">好きなこと</h2>
+          </div>
+
+          <div class="interests">
+            <article class="interest">
+              <div class="interest-header">
+                <span class="interest-number">01</span>
+                <h3>旅</h3>
+              </div>
+              <p>日本各地を訪れて、食事や文化を体験するのが大好きです。地酒と地域の魅力に惹かれます。</p>
+            </article>
+
+            <article class="interest">
+              <div class="interest-header">
+                <span class="interest-number">02</span>
+                <h3>機械いじり</h3>
+              </div>
+              <p>分解して掃除することが好きで、機械の中身を知る楽しさを感じます。組み立ての達成感も大切です。</p>
+            </article>
+
+            <article class="interest">
+              <div class="interest-header">
+                <span class="interest-number">03</span>
+                <h3>美容と健康</h3>
+              </div>
+              <p>内側からの美しさを重視していて、四毒抜きの食事や運動を習慣にしています。日々のケアを楽しんでいます。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="wrap">
+          <p class="eyebrow">Get in touch</p>
+          <h2 id="contact-title">お気軽にご連絡ください</h2>
+          <p class="contact-copy">
+            お仕事のご相談やご挨拶など、いつでもお問い合わせいただけます。
+          </p>
+          <a class="button button--light" href="mailto:sws.marie2026@icloud.com">Send Email <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">© <span id="year">2026</span> Marie-T</div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
