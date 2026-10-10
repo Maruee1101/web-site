@@ -360,6 +360,7 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
   transition: transform 220ms ease, background 220ms ease, color 220ms ease;
+  margin-left: auto;
 }
 
 .button2:hover,
@@ -383,7 +384,6 @@ h2 {
   background: var(--accent);
   color: #fffaf7;
 }
-
 
 .interests {
   display: grid;
