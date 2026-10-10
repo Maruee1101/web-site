@@ -1,5 +1,6 @@
 :root {
-  color-scheme: dark;
+  color-scheme: rgb(212, 155, 122);
+  /* color-scheme: dark; */
   --paper: #120f0d;
   --paper-2: #1b1714;
   --ink: #f5efe8;
@@ -203,7 +204,7 @@ h1 {
 
 .portrait {
   position: relative;
-  width: min(100%, 300px);
+  width: min(100%, 200px);
   aspect-ratio: 0.8;
   justify-self: end;
   overflow: hidden;
