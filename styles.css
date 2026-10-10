@@ -361,6 +361,7 @@ h2 {
   text-transform: uppercase;
   transition: transform 220ms ease, background 220ms ease, color 220ms ease;
   margin-left: auto;
+  float: right;
 }
 
 .button2:hover,
