@@ -434,6 +434,90 @@ h2 {
   line-height: 1.9;
 }
 
+.button3 {
+  display: inline-flex;
+  min-height: 54px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  padding: 0 28px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fffaf7;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: transform 220ms ease, background 220ms ease, color 220ms ease;
+}
+
+.button3:hover,
+.button3:focus-visible {
+  background: transparent;
+  color: var(--accent);
+  transform: translateX(4px);
+}
+
+.button3 span {
+  font-size: 16px;
+}
+
+.button3--light {
+  background: transparent;
+  color: var(--accent);
+}
+
+.button3--light:hover,
+.button3--light:focus-visible {
+  background: var(--accent);
+  color: #fffaf7;
+}
+
+
+.button2 {
+  display: inline-flex;
+  min-height: 54px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+  padding: 0 28px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fffaf7;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: transform 220ms ease, background 220ms ease, color 220ms ease;
+  margin-left: auto;
+  float: right;
+}
+
+.button2:hover,
+.button2:focus-visible {
+  background: transparent;
+  color: var(--accent);
+  transform: translateX(4px);
+}
+
+.button2 span {
+  font-size: 16px;
+}
+
+.button2--light {
+  background: transparent;
+  color: var(--accent);
+}
+
+.button2--light:hover,
+.button2--light:focus-visible {
+  background: var(--accent);
+  color: #fffaf7;
+}
+
+
 .contact {
   padding-block: 110px 130px;
   border-top: 1px solid var(--line);
@@ -521,7 +605,7 @@ footer {
     font-size: 14px;
   }
 
-  .button {
+  .button  {
     width: 100%;
     justify-content: center;
   }
