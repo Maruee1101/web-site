@@ -6,6 +6,7 @@
   --muted: #5a4b43;
   --accent: #c67f5a;
   --accent-soft: #dca67d;
+  --accent-hard: #c09189;
   --line: rgba(66, 44, 36, 0.12);
   --card: rgba(255, 255, 255, 0.42);
   --shadow: rgba(118, 85, 68, 0.12);
@@ -230,7 +231,7 @@ h1 {
 
 .section-label {
   margin: 0 0 54px;
-  color: var(--accent);
+  color: var(--accent-hard);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.18em;
