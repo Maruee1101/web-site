@@ -231,7 +231,7 @@ h1 {
 h2 {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(38px, 5vw, 58px);
+  font-size: clamp(18px, 3vw, 28px);
   font-weight: 500;
   letter-spacing: -0.03em;
   line-height: 0.85;
@@ -479,7 +479,7 @@ h2 {
 }
 
 .contact-copy {
-  max-width: 660px;
+  max-width: 500px;
   margin: 0 auto 34px;
   color: var(--muted);
   font-size: 15px;
