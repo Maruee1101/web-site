@@ -321,6 +321,8 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
   transition: transform 220ms ease, background 220ms ease, color 220ms ease;
+  margin-left: auto;
+  float: left;
 }
 
 .button1:hover,
@@ -451,6 +453,8 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
   transition: transform 220ms ease, background 220ms ease, color 220ms ease;
+  margin-left: auto;
+  float: left;
 }
 
 .button3:hover,
