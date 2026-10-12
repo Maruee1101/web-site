@@ -617,7 +617,7 @@ footer {
     justify-content: center;
   }
 
-  .button {
+  /* .button {
   display: inline-flex;
   min-height: 54px;
   align-items: center;
@@ -655,7 +655,7 @@ footer {
  .button:focus-visible {
   background: var(--accent);
   color: #fffaf7;
- }
+ } */
 
   .section,
   .contact {
