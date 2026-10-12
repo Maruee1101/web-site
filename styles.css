@@ -105,9 +105,9 @@ img {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
   align-items: center;
-  gap: clamp(52px, 10vw, 120px);
+  gap: clamp(40px, 10vw, 120px);
   min-height: min(700px, calc(100svh - 78px));
-  padding-block: 90px 110px;
+  padding-block: 90px 120px;
 }
 
 .eyebrow {
@@ -204,7 +204,7 @@ h1 {
 
 .portrait {
   position: relative;
-  width: min(100%, 200px);
+  width: min(100%, 100px);
   aspect-ratio: 0.8;
   justify-self: end;
   overflow: hidden;
