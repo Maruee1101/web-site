@@ -621,7 +621,7 @@ footer {
   display: inline-flex;
   min-height: 54px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 18px;
   padding: 0 28px;
   border: 1px solid var(--accent);
@@ -633,29 +633,29 @@ footer {
   text-decoration: none;
   text-transform: uppercase;
   transition: transform 220ms ease, background 220ms ease, color 220ms ease;
-}
+  }
 
-.button:hover,
-.button:focus-visible {
+  .button:hover,
+  .button:focus-visible {
   background: transparent;
   color: var(--accent);
   transform: translateX(4px);
-}
+  }
 
-.button span {
-  font-size: 16px;
-}
+  .button span {
+   font-size: 16px;
+ }
 
-.button--light {
+  .button {
   background: transparent;
   color: var(--accent);
-}
+  }
 
-.button--light:hover,
-.button--light:focus-visible {
+ .button:hover,
+ .button:focus-visible {
   background: var(--accent);
   color: #fffaf7;
-}
+ }
 
   .section,
   .contact {
