@@ -115,7 +115,7 @@ img {
   gap: 14px;
   margin: 0 0 28px;
   color: var(--accent);
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -295,7 +295,7 @@ h2 {
   line-height: 1.9;
 }
 
-.button2 {
+/* .button2 {
   display: inline-flex;
   min-height: 54px;
   align-items: center;
@@ -324,7 +324,7 @@ h2 {
 
 .button2 span {
   font-size: 16px;
-}
+} */
 
 .button3 {
   display: inline-flex;
@@ -405,7 +405,7 @@ h2 {
   line-height: 1.9;
 }
 
-.button4 {
+/* .button4 {
   display: inline-flex;
   min-height: 54px;
   align-items: center;
@@ -434,7 +434,7 @@ h2 {
 
 .button4 span {
   font-size: 16px;
-}
+} */
 
 .button3 {
   display: inline-flex;
